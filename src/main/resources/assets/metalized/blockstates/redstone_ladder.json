@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "metalized:block/redstone_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "metalized:block/redstone_ladder"
+    },
+    "facing=south": {
+      "model": "metalized:block/redstone_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "metalized:block/redstone_ladder",
+      "y": 270
+    }
+  }
+}

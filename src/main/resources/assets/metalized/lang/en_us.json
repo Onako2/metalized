@@ -1,0 +1,27 @@
+{
+    "block.metalized.iron_stairs": "Iron Stairs",
+    "block.metalized.coal_stairs": "Coal Stairs",
+    "block.metalized.gold_stairs": "Gold Stairs",
+    "block.metalized.emerald_stairs": "Emerald Stairs",
+    "block.metalized.diamond_stairs": "Diamond Stairs",
+    "block.metalized.redstone_stairs": "Redstone Stairs",
+    "block.metalized.netherite_stairs": "Netherite Stairs",
+    "block.metalized.lapis_stairs": "Lapis Stairs",
+
+    "block.metalized.iron_ladder": "Iron Ladder",
+    "block.metalized.coal_ladder": "Coal Ladder",
+    "block.metalized.gold_ladder": "Gold Ladder",
+    "block.metalized.emerald_ladder": "Emerald Ladder",
+    "block.metalized.diamond_ladder": "Diamond Ladder",
+    "block.metalized.redstone_ladder": "Redstone Ladder",
+    "block.metalized.netherite_ladder": "Netherite Ladder",
+
+    "block.metalized.coal_door": "Coal Door",
+    "block.metalized.gold_door": "Gold Door",
+    "block.metalized.emerald_door": "Emerald Door",
+    "block.metalized.diamond_door": "Diamond Door",
+    "block.metalized.redstone_door": "Redstone Door",
+    "block.metalized.netherite_door": "Netherite Ladder",
+
+    "itemGroup.metalized.main_group": "Metalized"
+}
