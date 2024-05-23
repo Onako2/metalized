@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:emerald_block"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "metalized:emerald_stairs",
-    "count": 4
+    "count": 4,
+    "id": "metalized:emerald_stairs"
   }
 }

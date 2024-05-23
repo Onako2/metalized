@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:iron_block"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "metalized:iron_stairs",
-    "count": 4
+    "count": 4,
+    "id": "metalized:iron_stairs"
   }
 }

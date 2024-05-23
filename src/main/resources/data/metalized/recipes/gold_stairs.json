@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:gold_block"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "metalized:gold_stairs",
-    "count": 4
+    "count": 4,
+    "id": "metalized:gold_stairs"
   }
 }

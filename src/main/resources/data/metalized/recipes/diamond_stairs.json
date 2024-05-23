@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:diamond_block"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "metalized:diamond_stairs",
-    "count": 4
+    "count": 4,
+    "id": "metalized:diamond_stairs"
   }
 }

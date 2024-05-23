@@ -1,12 +1,13 @@
 {
-    "replace": false,
-    "values": [
-        "metalized:iron_ladder",
-        "metalized:redstone_ladder",
-        "metalized:coal_ladder",
-        "metalized:emerald_ladder",
-        "metalized:gold_ladder",
-        "metalized:diamond_ladder",
-        "metalized:netherite_ladder"
-    ]
+  "replace": false,
+  "values": [
+    "metalized:iron_ladder",
+    "metalized:redstone_ladder",
+    "metalized:coal_ladder",
+    "metalized:emerald_ladder",
+    "metalized:gold_ladder",
+    "metalized:diamond_ladder",
+    "metalized:lapis_ladder",
+    "metalized:netherite_ladder"
+  ]
 }
