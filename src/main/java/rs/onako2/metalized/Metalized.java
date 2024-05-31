@@ -18,8 +18,6 @@ import rs.onako2.metalized.Init.ModItems;
 
 public class Metalized implements ModInitializer {
 
-    // MOD IS WIP
-
     // stairs
     public static final Logger LOGGER = LoggerFactory.getLogger("metalized");
 
