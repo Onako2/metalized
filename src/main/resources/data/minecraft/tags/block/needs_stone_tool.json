@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "metalized:iron_ladder",
+    "metalized:redstone_ladder",
+    "metalized:coal_ladder",
+    "metalized:iron_stairs",
+    "metalized:redstone_stairs",
+    "metalized:coal_stairs"
+  ]
+}

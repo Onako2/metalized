@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "metalized:emerald_ladder",
+    "metalized:gold_ladder",
+    "metalized:diamond_ladder",
+    "metalized:lapis_ladder",
+    "metalized:emeralds_stairs",
+    "metalized:gold_stairs",
+    "metalized:diamond_stairs",
+    "metalized:lapis_stairs"
+  ]
+}
