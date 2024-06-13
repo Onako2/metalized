@@ -9,5 +9,5 @@ import rs.onako2.metalized.Metalized;
 public class InventoryInit {
     public static void Init() {
         Registry.register(Registries.ITEM_GROUP, new Identifier("metalized", "main_group"), Metalized.METALIZED_ITEM_GROUP);
-}
+    }
 }
