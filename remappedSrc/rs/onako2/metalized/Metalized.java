@@ -42,21 +42,21 @@ public class Metalized implements ModInitializer {
     public static final Block NETHERITE_STAIRS = new CustomStairsBlock(Blocks.NETHERITE_BLOCK.getDefaultState(), Block.Settings.create().mapColor(MapColor.BLACK).requiresTool().strength(50.0f, 120.0f).sounds(BlockSoundGroup.NETHERITE).notSolid().requiresTool());
 
     // ladders
-    public static final Block IRON_LADDER = new CustomLadderBlock(Block.Settings.create().notSolid().strength(0.4f).sounds(BlockSoundGroup.LADDER).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
+    public static final Block IRON_LADDER = new CustomLadderBlock(Block.Settings.create().notSolid().strength(5.0f, 6.0f).sounds(BlockSoundGroup.LADDER).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
 
-    public static final Block GOLD_LADDER = new CustomLadderBlock(Block.Settings.create().notSolid().strength(0.4f).sounds(BlockSoundGroup.LADDER).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
+    public static final Block GOLD_LADDER = new CustomLadderBlock(Block.Settings.create().notSolid().strength(3.0f, 6.0f).sounds(BlockSoundGroup.LADDER).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
 
-    public static final Block LAPIS_LADDER = new CustomLadderBlock(Block.Settings.create().notSolid().strength(0.4f).sounds(BlockSoundGroup.LADDER).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
+    public static final Block LAPIS_LADDER = new CustomLadderBlock(Block.Settings.create().notSolid().strength(3.0f, 3.0f).sounds(BlockSoundGroup.LADDER).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
 
-    public static final Block DIAMOND_LADDER = new CustomLadderBlock(Block.Settings.create().notSolid().strength(0.4f).sounds(BlockSoundGroup.LADDER).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
+    public static final Block DIAMOND_LADDER = new CustomLadderBlock(Block.Settings.create().notSolid().strength(5.0f, 6.0f).sounds(BlockSoundGroup.LADDER).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
 
-    public static final Block EMERALD_LADDER = new CustomLadderBlock(Block.Settings.create().notSolid().strength(0.4f).sounds(BlockSoundGroup.LADDER).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
+    public static final Block EMERALD_LADDER = new CustomLadderBlock(Block.Settings.create().notSolid().strength(5.0f, 6.0f).sounds(BlockSoundGroup.LADDER).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
 
-    public static final Block COAL_LADDER = new CustomLadderBlock(Block.Settings.create().notSolid().strength(0.4f).sounds(BlockSoundGroup.LADDER).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
+    public static final Block COAL_LADDER = new CustomLadderBlock(Block.Settings.create().notSolid().strength(5.0f, 6.0f).sounds(BlockSoundGroup.LADDER).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
 
-    public static final Block REDSTONE_LADDER = new RedstoneLaddersBlock(Block.Settings.create().notSolid().strength(0.4f).sounds(BlockSoundGroup.LADDER).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
+    public static final Block REDSTONE_LADDER = new RedstoneLaddersBlock(Block.Settings.create().notSolid().strength(5.0f, 6.0f).sounds(BlockSoundGroup.LADDER).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
 
-    public static final Block NETHERITE_LADDER = new CustomLadderBlock(Block.Settings.create().notSolid().strength(50.0f).sounds(BlockSoundGroup.NETHERITE).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
+    public static final Block NETHERITE_LADDER = new CustomLadderBlock(Block.Settings.create().notSolid().strength(50.0f, 120.0f).sounds(BlockSoundGroup.NETHERITE).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).requiresTool());
 
     public static final ItemGroup METALIZED_ITEM_GROUP = FabricItemGroup.builder()
             .icon(() -> new ItemStack(IRON_STAIRS))
