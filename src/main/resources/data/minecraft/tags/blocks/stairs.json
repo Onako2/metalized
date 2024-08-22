@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "metalized:iron_stairs",
+    "metalized:redstone_stairs",
+    "metalized:coal_stairs",
+    "metalized:emerald_stairs",
+    "metalized:gold_stairs",
+    "metalized:diamond_stairs",
+    "metalized:lapis_stairs",
+    "metalized:netherite_stairs"
+  ]
+}
