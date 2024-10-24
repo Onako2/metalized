@@ -1,34 +1,32 @@
 package rs.onako2.metalized.Init;
 
-import net.fabricmc.fabric.api.registry.FuelRegistry;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
+import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
+import net.minecraft.item.Items;
 import rs.onako2.metalized.Metalized;
 
 public class ModItems {
     public static void Init() {
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "iron_stairs"), new BlockItem(Metalized.IRON_STAIRS, new Item.Settings()));
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "coal_stairs"), new BlockItem(Metalized.COAL_STAIRS, new Item.Settings()));
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "gold_stairs"), new BlockItem(Metalized.GOLD_STAIRS, new Item.Settings()));
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "diamond_stairs"), new BlockItem(Metalized.DIAMOND_STAIRS, new Item.Settings()));
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "emerald_stairs"), new BlockItem(Metalized.EMERALD_STAIRS, new Item.Settings()));
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "redstone_stairs"), new BlockItem(Metalized.REDSTONE_STAIRS, new Item.Settings()));
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "lapis_stairs"), new BlockItem(Metalized.LAPIS_STAIRS, new Item.Settings()));
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "netherite_stairs"), new BlockItem(Metalized.NETHERITE_STAIRS, new Item.Settings().fireproof()));
+        Items.register(Metalized.IRON_STAIRS);
+        Items.register(Metalized.GOLD_STAIRS);
+        Items.register(Metalized.LAPIS_STAIRS);
+        Items.register(Metalized.DIAMOND_STAIRS);
+        Items.register(Metalized.EMERALD_STAIRS);
+        Items.register(Metalized.COAL_STAIRS);
+        Items.register(Metalized.REDSTONE_STAIRS);
+        Items.register(Metalized.NETHERITE_STAIRS);
 
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "iron_ladder"), new BlockItem(Metalized.IRON_LADDER, new Item.Settings()));
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "coal_ladder"), new BlockItem(Metalized.COAL_LADDER, new Item.Settings()));
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "gold_ladder"), new BlockItem(Metalized.GOLD_LADDER, new Item.Settings()));
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "diamond_ladder"), new BlockItem(Metalized.DIAMOND_LADDER, new Item.Settings()));
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "emerald_ladder"), new BlockItem(Metalized.EMERALD_LADDER, new Item.Settings()));
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "redstone_ladder"), new BlockItem(Metalized.REDSTONE_LADDER, new Item.Settings()));
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "lapis_ladder"), new BlockItem(Metalized.LAPIS_LADDER, new Item.Settings()));
-        Registry.register(Registries.ITEM, Identifier.of("metalized", "netherite_ladder"), new BlockItem(Metalized.NETHERITE_LADDER, new Item.Settings().fireproof()));
+        Items.register(Metalized.IRON_LADDER);
+        Items.register(Metalized.GOLD_LADDER);
+        Items.register(Metalized.LAPIS_LADDER);
+        Items.register(Metalized.DIAMOND_LADDER);
+        Items.register(Metalized.EMERALD_LADDER);
+        Items.register(Metalized.COAL_LADDER);
+        Items.register(Metalized.REDSTONE_LADDER);
+        Items.register(Metalized.NETHERITE_LADDER);
 
-        FuelRegistry.INSTANCE.add(Metalized.COAL_LADDER, 300);
-        FuelRegistry.INSTANCE.add(Metalized.COAL_STAIRS, 300);
+        FuelRegistryEvents.BUILD.register((builder, context) -> {
+            builder.add(Metalized.COAL_LADDER, 300);
+            builder.add(Metalized.COAL_STAIRS, 300);
+        });
     }
 }

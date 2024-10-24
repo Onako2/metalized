@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:gold_ingot"
-    }
+    "#": "minecraft:gold_ingot"
   },
   "pattern": [
     "# #",
@@ -13,7 +11,6 @@
   ],
   "result": {
     "count": 3,
-    "item": "metalized:gold_ladder",
     "id": "metalized:gold_ladder"
   }
 }

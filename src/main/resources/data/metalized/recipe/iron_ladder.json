@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:iron_ingot"
-    }
+    "#": "minecraft:iron_ingot"
   },
   "pattern": [
     "# #",
@@ -13,7 +11,6 @@
   ],
   "result": {
     "count": 3,
-    "item": "metalized:iron_ladder",
     "id": "metalized:iron_ladder"
   }
 }

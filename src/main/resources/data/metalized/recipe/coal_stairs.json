@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "item": "minecraft:coal_block"
-    }
+    "#": "minecraft:coal_block"
   },
   "pattern": [
     "#  ",
@@ -13,7 +11,6 @@
   ],
   "result": {
     "count": 4,
-    "item": "metalized:coal_stairs",
     "id": "metalized:coal_stairs"
   }
 }

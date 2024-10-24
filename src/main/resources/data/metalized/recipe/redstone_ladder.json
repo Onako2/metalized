@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:redstone"
-    }
+    "#": "minecraft:redstone"
   },
   "pattern": [
     "# #",
@@ -13,7 +11,6 @@
   ],
   "result": {
     "count": 3,
-    "item": "metalized:redstone_ladder",
     "id": "metalized:redstone_ladder"
   }
 }

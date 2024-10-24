@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:emerald"
-    }
+    "#": "minecraft:emerald"
   },
   "pattern": [
     "# #",
@@ -13,7 +11,6 @@
   ],
   "result": {
     "count": 3,
-    "item": "metalized:emerald_ladder",
     "id": "metalized:emerald_ladder"
   }
 }
