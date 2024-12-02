@@ -11,7 +11,7 @@ public class Identifiers {
     public static Identifier emeraldStairs = Identifier.of("metalized", "emerald_stairs");
     public static Identifier lapisStairs = Identifier.of("metalized", "lapis_stairs");
     public static Identifier netheriteStairs = Identifier.of("metalized", "netherite_stairs");
-
+    
     public static Identifier ironLadder = Identifier.of("metalized", "iron_ladder");
     public static Identifier goldLadder = Identifier.of("metalized", "gold_ladder");
     public static Identifier redstoneLadder = Identifier.of("metalized", "redstone_ladder");

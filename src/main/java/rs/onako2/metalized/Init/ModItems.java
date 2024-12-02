@@ -14,7 +14,7 @@ public class ModItems {
         Items.register(Metalized.COAL_STAIRS);
         Items.register(Metalized.REDSTONE_STAIRS);
         Items.register(Metalized.NETHERITE_STAIRS);
-
+        
         Items.register(Metalized.IRON_LADDER);
         Items.register(Metalized.GOLD_LADDER);
         Items.register(Metalized.LAPIS_LADDER);
@@ -23,7 +23,7 @@ public class ModItems {
         Items.register(Metalized.COAL_LADDER);
         Items.register(Metalized.REDSTONE_LADDER);
         Items.register(Metalized.NETHERITE_LADDER);
-
+        
         FuelRegistryEvents.BUILD.register((builder, context) -> {
             builder.add(Metalized.COAL_LADDER, 300);
             builder.add(Metalized.COAL_STAIRS, 300);
