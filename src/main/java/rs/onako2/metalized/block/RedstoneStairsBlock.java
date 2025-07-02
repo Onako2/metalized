@@ -1,15 +1,14 @@
-package rs.onako2.metalized.Block;
+package rs.onako2.metalized.block;
 
 import net.minecraft.block.BlockState;
-import net.minecraft.block.LadderBlock;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.BlockView;
 
-public class RedstoneLaddersBlock extends LadderBlock {
-    
-    public RedstoneLaddersBlock(Settings settings) {
-        super(settings);
+public class RedstoneStairsBlock extends StairsBlock {
+    public RedstoneStairsBlock(BlockState defaultState, Settings settings) {
+        super(defaultState, settings);
     }
     
     @Override

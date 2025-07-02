@@ -1,4 +1,4 @@
-package rs.onako2.metalized.Init;
+package rs.onako2.metalized.init;
 
 import net.minecraft.util.Identifier;
 

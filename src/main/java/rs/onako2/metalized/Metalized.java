@@ -18,13 +18,13 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import rs.onako2.metalized.Block.RedstoneLaddersBlock;
-import rs.onako2.metalized.Block.RedstoneStairsBlock;
-import rs.onako2.metalized.Init.Identifiers;
-import rs.onako2.metalized.Init.ModItems;
+import rs.onako2.metalized.block.RedstoneLaddersBlock;
+import rs.onako2.metalized.block.RedstoneStairsBlock;
+import rs.onako2.metalized.init.Identifiers;
+import rs.onako2.metalized.init.ModItems;
 
-import static rs.onako2.metalized.Init.Identifiers.ironStairs;
-import static rs.onako2.metalized.Init.Identifiers.redstoneStairs;
+import static rs.onako2.metalized.init.Identifiers.ironStairs;
+import static rs.onako2.metalized.init.Identifiers.redstoneStairs;
 
 public class Metalized implements ModInitializer {
     
